@@ -1,0 +1,12 @@
+{
+  "name": "booking-test-task-cypress",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "^13.16.0",
+    "@faker-js/faker": "^9.2.0"
+  },
+  "scripts": {
+    "test:e2e": "npx cypress open",
+    "test:e2e:headless": "npx cypress run –headless"
+  }
+}
